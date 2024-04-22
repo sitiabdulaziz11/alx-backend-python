@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Module that works onThe basics of async.
+""" Module that works on the basics of async.
 """
 
 import asyncio
