@@ -12,4 +12,4 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
     times with the specified max_delay.
     """
     process = [asyncio.create_task(wait_random(max_delay)) for _ in range(n)]
-    return [await task for task in asyncio.as_completed(process)]
+    return [await proc for proc in asyncio.as_completed(process)]
