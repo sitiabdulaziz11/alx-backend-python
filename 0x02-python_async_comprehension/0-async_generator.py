@@ -2,7 +2,7 @@
 
 """Module that works on  Async Generator"""
 
-from asyncio import sleep
+import asyncio
 from random import uniform
 from typing import Generator
 
@@ -14,5 +14,5 @@ async def async_generator() -> Generator[float, None, None]:
     then yield a random number between 0 and 10. Use the random module.
     """
     for _ in range(10):
-        await sleep(1)
+        await asyncio.sleep(1)
         yield uniform(0, 10)
