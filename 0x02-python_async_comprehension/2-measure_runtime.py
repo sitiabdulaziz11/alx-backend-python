@@ -2,7 +2,6 @@
 """Run time for four parallel comprehensions """
 
 import asyncio
-from time import time
 from time import perf_counter
 
 async_comprehension = __import__('1-async_comprehension').async_comprehension
