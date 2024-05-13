@@ -6,6 +6,7 @@ import unittest
 from unittest.mock import patch
 from utils import (access_nested_map, get_json, memoize)
 import unittest.mock as mock
+import requests
 
 
 class TestAccessNestedMap(unittest.TestCase):

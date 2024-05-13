@@ -3,7 +3,6 @@ from parameterized import parameterized
 
 def add(a, b):
     return a + b
-
 class TestAddFunction(unittest.TestCase):
     @parameterized.expand([
         (2, 3, 5),
